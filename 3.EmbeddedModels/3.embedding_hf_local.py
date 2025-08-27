@@ -4,6 +4,6 @@ embedding= HuggingFaceEmbeddings(model_name= "sentence-transformers/all-MiniLM-L
 
 text="Delhi is the capital of India"
 
-vector= embedding.aembed_query(text)
+vector= embedding.embed_query(text)
 
 print(str(vector))
